@@ -129,7 +129,7 @@ footer {
   color: white;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 376x){
   header article img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 1px){
   header article img {
     background-size: cover;
     background-repeat: no-repeat;
