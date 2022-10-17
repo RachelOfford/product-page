@@ -88,6 +88,9 @@ main nav li a {
   text-decoration: none;
   color: #fff;
   background-color: #224229;
+  border-radius: 0;
+  transition-duration: .7s;
+  transition-timing-function: 5px;
   transition: .7s 5px, ease-in;
 }
 
