@@ -84,19 +84,20 @@ main nav {
   list-style-type: none;
 }
 
-main nav li a{
+main nav li a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   background-color: #224229;
+  transition: .7s 5px, ease-in;
 }
 
-main nav li a:hover{
+main nav li a:hover {
   text-decoration: none;
-  color: black;
+  color: #224229;
   background-color: white;
 }
 
-section  {
+section {
   display: flex;
   flex-direction: column;
   padding: 1rem 1rem;
@@ -106,7 +107,7 @@ section  {
 .description article {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 
@@ -129,7 +130,7 @@ footer {
   color: white;
 }
 
-@media only screen and (min-width: 376x){
+@media only screen and (max-width: 1270) {
   header article img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,7 +139,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1px){
+@media only screen and (max-width: 760px) {
   header article img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -155,7 +156,7 @@ footer {
 
   .description article {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   }
